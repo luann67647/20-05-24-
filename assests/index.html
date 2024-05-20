@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container_form">
+        <h1>Formulário de Cadastro Para O Curso De Programação</h1>
+        <form class="form" action="#" method="post">
+            <img src="https://img.freepik.com/vetores-gratis/logotipo_23-2148144452.jpg?size=626&ext=jpg&ga=GA1.1.1583184201.1716226156&semt=ais_user_b" alt="">
+            <img src="https://t4.ftcdn.net/jpg/06/80/72/59/240_F_680725953_6qqX7MV2QxULYpH0eWmquVYmwC30uB9j.jpg" alt="">
+
+            <div class="form_grupo">
+                <label for="cpf" class="form_label">CPF</label>
+                <input type="text" name="cpf" class="form_input" id="cpf" placeholder="CPF" required>
+            </div>
+            
+            <div class="form_grupo">
+                <label for="nome" class="form_label">Nome Completo</label>
+                <input type="text" name="nome" class="form_input" id="nome" placeholder="Nome" required>
+            </div>
+            
+            <div class="form_grupo">
+                <label for="e-mail" class="form_label">Email</label>
+                <input type="email" name="email" class="form_input" id="email" placeholder="" required>
+            </div>
+            
+            <div class="form_grupo">
+                <label for="datanascimento" class="form_label">Data de Nascimento</label>
+                <input type="date" name="datanascimento" class="form_input" id="datanascimento" placeholder="Data de Nascimento" required>
+            </div>
+            
+            <div class="form_grupo">
+                <label for="telefone" class="form_label">Telefone </label>
+                <input type="tel" name="telefone" class="form_input" id="telefone" placeholder="Telefone" required>
+            </div>
+            
+            <div class="form_grupo">
+                <label for="endereco" class="form_label">Endereço</label>
+                <input type="text" name="endereco" class="form_input" id="endereco" placeholder="Endereço" required>
+            </div>
+            
+            <div class="form_grupo">
+                <label for="cidade" class="form_label">Cidade</label>
+                <input type="text" name="cidade" class="form_input" id="cidade" placeholder="Cidade" required>
+            </div>
+            
+            <div class="form_grupo">
+                <label for="estado" class="form_label">Estado</label>
+                <input type="text" name="estado" class="form_input" id="estado" placeholder="Estado" required>
+            </div>
+            
+            <div class="form_grupo">
+                <label for="cep" class="form_label">CEP</label>
+                <input type="text" name="cep" class="form_input" id="cep" placeholder="CEP" required>
+            </div>
+            
+            
+            <div class="form_grupo">
+                <label for="escolaridade" class="form_label">Escolaridade</label>
+                <input type="text" name="escolaridade" class="form_input" id="escolaridade" placeholder="Escolaridade" required>
+            </div>
+            
+    
+            
+                <label for="estadocivil" class="text">Estado civil</label>
+                <select name="estadocivil" class="dropdown" required>
+                    
+                    <option selected disabled class="form_select_option" value="">Selecione</option>
+                    <option value="Solteiro" class="form_select_option">Solteiro(a)</option>
+                    <option value="Casado" class="form_select_option">Casado(a) </option>
+                    <option value="Divorciado" class="form_select_option">Divorciado(a)</option>                    
+                    <option value="Viúvo" class="form_select_option">Viúvo(a)</option>
+                    <option value="Separado" class="form_select_option">Não Quero Falar</option>                    
+                
+                </select>
+                
+                
+                
+
+
+            </div>
+            <div class="form_grupo">
+                <span class="legenda">Sexo:</span>
+                
+                <div class="radio-btn">
+                    <input type="radio" class="form_new_input" id="masculino" name="sexo" value="Masculino" required="required">
+                    <label for="masculino" class="radio_label form_label"> <span class="radio_new_btn"></span> Masculino</label>
+                </div>
+                <div class="radio-btn">
+                    <input type="radio" class="form_new_input" id="feminino" name="sexo" value="Feminino" required="required">
+                    <label for="feminino" class="radio_label form_label"> <span class="radio_new_btn"></span> Feminino</label>
+                </div>
+                <div class="radio-btn">
+                    <input type="radio" class="form_new_input" id="outro" name="sexo" value="Outro" required="required">
+                    <label for="outro" class="radio_label form_label"> <span class="radio_new_btn"></span> Outro</label>
+                    
+    
+                
+            </div>
+
+          
+            <div class="form_grupo">
+                <span class="legenda">Você quer aprender o que ?</span>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="html5" name="aprender" value="html5">
+                    <label for="html5" class="form_label check_label"> <span class="check_new_btn"></span> Html5</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="css3" name="aprender" value="css3">
+                    <label for="css3" class="form_label check_label"><span class="check_new_btn"></span> Css3</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="jquery" name="aprender" value="jquery">
+                    <label for="jquery" class="form_label check_label"><span class="check_new_btn"></span> JavaScripit</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="wordpress" name="aprender" value="wordpress">
+                    <label for="wordpress" class="form_label check_label"><span class="check_new_btn"></span> Git</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="php" name="aprender" value="php">
+                    <label for="php" class="form_label check_label"><span class="check_new_btn"></span> PHP</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="bootstrap" name="aprender" value="bootstrap">
+                    <label for="bootstrap" class="form_label check_label"><span class="check_new_btn"></span> Bootstrap</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="laravel" name="aprender" value="laravel">
+                    <label for="laravel" class="form_label check_label"><span class="check_new_btn"></span> Laravel</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="codeigniter" name="aprender" value="codeigniter">
+                    <label for="codeigniter" class="form_label check_label"><span class="check_new_btn"></span> CodeIgniter</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="mysql" name="aprender" value="mysql">
+                    <label for="mysql" class="form_label check_label"><span class="check_new_btn"></span> MySQL</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="angular" name="aprender" value="angular">
+                    <label for="angular" class="form_label check_label"><span class="check_new_btn"></span> Angular</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="react" name="aprender" value="react">
+                    <label for="react" class="form_label check_label"><span class="check_new_btn"></span> React</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="vue" name="aprender" value="vue">
+                    <label for="vue" class="form_label check_label"><span class="check_new_btn"></span> Vue</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="wordpress" name="aprender" value="wordpress">
+                    <label for="wordpress" class="form_label check_label"><span class="check_new_btn"></span> Wordpress</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="wordpress" name="aprender" value="wordpress">
+                    <label for="wordpress" class="form_label check_label"><span class="check_new_btn"></span> Wordpress</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="wordpress" name="aprender" value="wordpress">
+                    <label for="wordpress" class="form_label check_label"><span class="check_new_btn"></span> Wordpress</label>
+                </div>
+                <div class="check-btn">
+                    <input type="checkbox" class="form_new_input" id="wordpress" name="aprender" value="wordpress">
+                    <label for="wordpress" class="form_label check_label"><span class="check_new_btn"></span> Wordpress</label>
+                </div>
+                  
+
+                
+                <div class="form_message">
+                    
+                    <label for="message" class="form_message_label"> Digite aqui sua sua mensagem:</label>
+                    <textarea name="mensagem" id="message" cols="30" rows="3" class="form_input message_input" required></textarea>
+
+                </div>
+                
+                <div class="submit">
+                  <input type="hidden" name="acao" value="enviar">
+                  <button type="submit" name="Submit" class="submit_btn" >Cadastrar</button>
+                  <button type="reset" class="submit_btn" >Limpar</button>
+
+                </div>
+
+                
+            </div>
+
+        </form>
+        </div>
+
+</div>
+
+
+</body>
+</html>
