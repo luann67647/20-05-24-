@@ -7,6 +7,17 @@ container_form {
     box-shadow: 1px 0px 1.2px 0px #ffb2b2; 
     border-radius:3px; 
     padding:1em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    text-shadow: 0 0 5px rgb(255, 115, 115);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family:'open_sansregular';
+    font-size: 1.5em;
+    color: #3d8a8d;
+
 }
 .container_form h1 {
     
@@ -21,6 +32,18 @@ container_form {
     text-transform: uppercase;
     letter-spacing: 2px;
     text-decoration: none;
+    font-family:'open_sansregular';
+    font-size: 1.5em;
+    color: #3d8a8d;
+    border-bottom: 1px #ef6363 solid;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-shadow: 0 0 5px rgb(255, 115, 115);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family:'open_sansregular';
 
 }
 .form_grupo {
@@ -29,6 +52,8 @@ container_form {
     margin-bottom: 30px;
     padding: 10px;
     border: 0px #ff4242 solid;
+   
+    
 
 }
 .form_grupo .legenda { 
@@ -68,6 +93,9 @@ container_form {
 .submit_btn:hover {
     background-color: #c800ff;
     transform: scale(1.03);
+    box-shadow: 1px 0px 1.2px 0px #9f6262;
+    transition: all 0.3s;
+    box-shadow: 1px 0px 1.2px 0px #9f6262;
 }
 .dropdown {
     display: block;
@@ -77,10 +105,11 @@ container_form {
     color: #ffcb5c;
     border-radius: 4px;
     border: 1px #0f0202 solid;
-    background: #5eff00;
+    background: #f7ec86;
     outline: none;
     padding-left: 10px;
     width: 100%;
+    margin-bottom: 20px;
 }
 .form_new_input {
     display: none;
@@ -92,6 +121,7 @@ container_form {
     padding-left: 30px;
     cursor: pointer;
     margin-bottom: 8px;
+    
 }
 .radio_new_btn {
     position: absolute;
@@ -120,6 +150,7 @@ container_form {
     height: 20px;
     width: 20px;
     border: 0.2em solid #3df20b;
+    border-radius: 50%;
 }
 .check_new_btn::after {
     content: "";
@@ -131,6 +162,7 @@ container_form {
     transform: translate(-40%, -40%);
     background-color: #0097dd;
     visibility: hidden;
+    border-radius: 40%;
 }
 .form_new_input:checked ~ .radio_label .radio_new_btn::after,
 .form_new_input:checked ~ .check_label .check_new_btn::after {
@@ -152,15 +184,23 @@ container_form {
     padding: 8px 15px;
     border-radius: 4px;
     border: 1px#f86002 solid;
-    background: #f6ff00;
+    background: #fbff79;
     outline: none;
     width: 90%;
     transition: all 0.3s;
+    box-shadow: 1px 0px 1.2px 0px #a55757;
 }
 .form_message,
 .form_message .message_input {
     width: 99%;
     float:left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #00aeff;
+    
+    
+
 }
 .form_message_label {
     width: 99%;
@@ -168,11 +208,25 @@ container_form {
     margin-top: 15px;
     margin-bottom: 15px;
     font-weight: bold;
+    color: #00aeff;
+
     
 }
 img{
     width: 115px;
     height: 115px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 0px 1.2px 0px #a55757;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: 1px #0f0202 solid;
+    background: #d0ffb5;
+    outline: none;
     object-fit: cover;
     border-radius: 3px;
     box-shadow: 1px 0px 1.2px 0px #a55757;
@@ -182,7 +236,7 @@ img{
     transition: all 0.3s;
     cursor: pointer;
     border: 1px #0f0202 solid;
-    background: #5eff00;
+    background: #d0ffb5;
     outline: none;
     padding-left: 10px;
     
